@@ -1,13 +1,13 @@
-package com.tomfitton.smartorder;
+package com.tomfitton.smartorder.userservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class SmartorderApplication {
+public class SmartorderUserServiceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SmartorderApplication.class, args);
+		SpringApplication.run(SmartorderUserServiceApplication.class, args);
 	}
 
 }
